@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Youtube Gaming Opener",
+    "short_name": "YGO",
+    "version": "0.1",
+    "description": "格ゲーチェッカー(http://kakuge-checker.com/)でYoutubeのリンクを開くときにGaming Youtubeで開きます。",
+    "content_scripts": [
+    {
+      "matches": ["http://kakuge-checker.com/*"],
+      "js": ["Scripts/jquery-3.2.1.js", "Scripts/app.js"]
+    }
+  ]
+}
