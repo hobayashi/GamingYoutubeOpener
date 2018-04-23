@@ -8,6 +8,12 @@
     {
       "matches": ["http://kakuge-checker.com/*"],
       "js": ["Scripts/jquery-3.2.1.js", "Scripts/app.js"]
-    }
-  ]
+    }],
+    "permissions": [
+          "contextMenus"
+    ],
+    "background": {
+      "scripts": ["Scripts/eventPage.js"],
+      "persistent": false
+     }
 }
